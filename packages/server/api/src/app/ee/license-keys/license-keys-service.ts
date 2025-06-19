@@ -8,7 +8,8 @@ import { telemetry } from '../../helper/telemetry.utils'
 import { platformService } from '../../platform/platform.service'
 import { userService } from '../../user/user-service'
 
-const secretManagerLicenseKeysRoute = 'https://secrets.activepieces.com/license-keys'
+// const secretManagerLicenseKeysRoute = 'https://secrets.activepieces.com/license-keys'
+const secretManagerLicenseKeysRoute = ''
 
 const handleUnexpectedSecretsManagerError = (log: FastifyBaseLogger, message: string) => {
     log.error(`[ERROR]: Unexpected error from secret manager: ${message}`)

@@ -13,7 +13,8 @@ import { systemJobHandlers } from '../helper/system-jobs/job-handlers'
 import { PieceMetadataEntity } from './piece-metadata-entity'
 import { pieceMetadataService } from './piece-metadata-service'
 
-const CLOUD_API_URL = 'https://cloud.activepieces.com/api/v1/pieces'
+// const CLOUD_API_URL = 'https://cloud.activepieces.com/api/v1/pieces'
+const CLOUD_API_URL = ''
 const piecesRepo = repoFactory(PieceMetadataEntity)
 const syncMode = system.get<PieceSyncMode>(AppSystemProp.PIECES_SYNC_MODE)
 
